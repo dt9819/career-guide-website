@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>	
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta charset="UTF-8">
+			<title>myCareer-Guide</title>
+			<link rel="icon" href="img/icons/icon.png">
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="./css/bootstrap.min.css">
+			<link rel="stylesheet" href="./css/ui.totop.css">
+			<link rel="stylesheet" href="./css/Home.css"/>
+			<!-- jQuery library -->
+			<script src="./js/jquery.min.js"></script>
+			<!-- Latest compiled JavaScript -->
+			<script src="./js/bootstrap.min.js"></script>
+			<script type="text/javascript">
+				/*2nd Image Slider will Not Slide before 3 minutes */
+				$(document).ready(function(){
+						$("#btnsearch").hover(function(){
+						$("#search1").animate({
+						width: '+=150px',
+						}).css("background", "#25292E");
+					});
+					$('#myCarousel2.slide').carousel({
+						interval: 200000,
+						pause: "hover"
+					}); 
+				});
+			</script>
+			<style type="text/css">
+				/*Icons are incapable to load from external css */
+				/*Search Icon*/
+				.search_submit{
+				background:url("img/icons/search.png");
+				border:none;
+				}
+				/*Email tick Icon*/
+				.tick{
+				height:25px;
+				border:1px solid;
+				background:url("img/icons/tick.png");
+				opacity:0.5;
+				}
+			</style>
+	</head>
+	<body>
+		<!--Logo & Heading-->
+		<div id="upper">
+			<img src="./img/icons/mcg.png" class="img-responsive" alt="myCareer-Guide" width="300" height="80" title="myCareer-Guide">
+		</div>
+		<!--end of logo & Heading-->	
+	
+		<!--Start Navbar -->
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> 
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="career_choices.html">Career Choices</a></li>
+						<li><a href="colleges.html">Colleges</a></li>
+						<li><a href="results.html">Results</a></li> 
+						<li><a href="jobs.html">Jobs</a></li> 
+						<li><a href="motivation.html">Motivation</a></li> 
+						<li><a href="entrepreneurship.html">Entrepreneurship</a></li> 
+						<li class="active"><a href="success_stories.html">Success Stories</a></li> 
+						<li><a href="about_us.html">About Us</a></li> 
+						<!--search bar-->		
+						<li>
+							<form id="myform">
+								<input type="search" class="search_input" placeholder="Search Here..." id="search1" value="" />
+								<input type="submit" class="search_submit" value="  " id="btnsearch"><span class=""></span></input>
+							</form>
+						</li> 
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--end of Navbar-->
+		<!--Start Jumbotron Info-->
+			<div class="container">
+				<div class="jumbotron">
+					<h1>Success Stories</h1>
+					<p>Every people have something good or bad everyday, which makes them to learn something, experience something every new day.</p>
+					<h3>You can also uplode your success stories which teaches others in way to succesful future. </h3>
+					<h2>LET THE WORLD KNOW YOU!!!</h2>
+				</div>
+			</div>
+		<!--End Jumbotron Info-->
+		<!--Success Stories Photo List-->
+		<div class="jumbotron">
+			<div class="container">
+				<div id="myCarousel4" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<div class="col-sm-3">
+								<div class="team">
+									<img src="img/team/img.jpg" class="img-responsive" alt=""> 
+									<div class="team_box">               
+										<h3>Slightly Believable</h3>  
+										<p>Computer Scientist</p>        
+										<ul class="team-socials">
+											<li><a href="#"><span class="icon-social "><i class="fa fa-facebook"></i></span></a></li>
+											<li><a href="#"><span class="icon-social "><i class="fa fa-twitter"></i></span></a></li>
+											<li><a href="#"><span class="icon-social"><i class="fa fa-google-plus"></i></span></a></li>
+										</ul>     
+									</div>                             
+								</div>
+							</div>
+							<div class="story">
+								<p style="">	Hello!!! India is divided into 28 states and 7 so-called “Union Territories”. The states have their own elected governments
+									while the Union Territories are ruled directly by the Government of India, with the President of India appointing an
+									administrator for each Union Territory. As per the constitution of India, school education was originally a state
+									subject that is, the states had complete authority on deciding policies and implementing them. The role of the
+									Government of India was limited to coordination and deciding on the standards of higher education. This was
+									changed with a constitutional amendment in 1976 so that education now comes in the so-called concurrent list.
+									That is, school education policies and programmes are suggested at the national level by the GoI though the state
+									governments have a lot of freedom in implementing programmes.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-sm-3">
+								<div class="team">
+									<img src="img/team/img1.jpg" class="img-responsive" alt=""> 
+									<div class="team_box">               
+										<h3>Slightly Believable</h3>  
+										<p>Computer Scientist</p>        
+										<ul class="team-socials">
+											<li><a href="#"><span class="icon-social "><i class="fa fa-facebook"></i></span></a></li>
+											<li><a href="#"><span class="icon-social "><i class="fa fa-twitter"></i></span></a></li>
+											<li><a href="#"><span class="icon-social"><i class="fa fa-google-plus"></i></span></a></li>
+										</ul>     
+									</div>                             
+								</div>
+							</div>
+							<div class="story">
+								<p style="">	Hello!!! India is divided into 28 states and 7 so-called “Union Territories”. The states have their own elected governments
+									while the Union Territories are ruled directly by the Government of India, with the President of India appointing an
+									administrator for each Union Territory. As per the constitution of India, school education was originally a state
+									subject that is, the states had complete authority on deciding policies and implementing them. The role of the
+									Government of India was limited to coordination and deciding on the standards of higher education. This was
+									changed with a constitutional amendment in 1976 so that education now comes in the so-called concurrent list.
+									That is, school education policies and programmes are suggested at the national level by the GoI though the state
+									governments have a lot of freedom in implementing programmes.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-sm-3">
+								<div class="team">
+									<img src="img/team/img2.jpg" class="img-responsive" alt=""> 
+									<div class="team_box">               
+										<h3>Slightly Believable</h3>  
+										<p>Computer Scientist</p>        
+										<ul class="team-socials">
+											<li><a href="#"><span class="icon-social "><i class="fa fa-facebook"></i></span></a></li>
+											<li><a href="#"><span class="icon-social "><i class="fa fa-twitter"></i></span></a></li>
+											<li><a href="#"><span class="icon-social"><i class="fa fa-google-plus"></i></span></a></li>
+										</ul>     
+									</div>                             
+								</div>
+							</div>
+							<div class="story">
+								<p style="">	Hello!!! India is divided into 28 states and 7 so-called “Union Territories”. The states have their own elected governments
+									while the Union Territories are ruled directly by the Government of India, with the President of India appointing an
+									administrator for each Union Territory. As per the constitution of India, school education was originally a state
+									subject that is, the states had complete authority on deciding policies and implementing them. The role of the
+									Government of India was limited to coordination and deciding on the standards of higher education. This was
+									changed with a constitutional amendment in 1976 so that education now comes in the so-called concurrent list.
+									That is, school education policies and programmes are suggested at the national level by the GoI though the state
+									governments have a lot of freedom in implementing programmes.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<!--Footer-->
+		<div class="footer1">
+			<div class="container">
+				<div class="col-lg-4 col-sm-6" >
+					<h1><a style="color:white; text-decoration:none;" href="index.html">myCareer-Guide</a></h1>
+					<p style="color:#C3C0C0;">We have cover all career related problem and options in this website.</p>
+				</div>
+				<div class="col-lg-4 col-sm-6 footer1a">
+					<h3 style="color:white;">Navigation</h3>
+					<ul style="list-style:none;">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="gallery.html">Career Choices</a></li>
+						<li><a href="gallery.html">Entrepreneurship</a></li>
+						<li><a href="gallery.html">Success Stories</a></li>
+						<li><a href="gallery.html">Result & Counselling</a></li>
+						<li><a href="gallery.html">Motivation & Problems</a></li>
+						<li><a href="gallery.html">Colleges</a></li>
+						<li><a href="gallery.html">Jobs</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-sm-6" style="padding:20px;">
+					<ul style="list-style:none;">
+						<li><a href="services.html"><h4>Our Services</h4></a></li>
+						<li><a href="about_us.html"><h4>About Us</h4></a></li>
+						<li><a href="contact_us.html"><h4>Contact Us</h4></a></li>
+					</ul>
+					<form><h3 style="color:white;">Newsletter</h3>
+						<input type="text" style="background:#3C444E; color:#fff; border:none;" value=" Email" />
+						<input type="submit" value="   " class="tick">
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer2">
+			<div class="container">
+				<p style="color:#fff; text-align:center;"> © 2016 myCareer-Guide | All rights reserved </p>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+			
+				<!-- easing plugin ( optional ) -->
+				<!-- UItoTop plugin -->
+				<script src="./js/jquery.ui.totop.js" type="text/javascript"></script>
+				<!-- Starting the plugin -->
+				<script type="text/javascript">
+					$(document).ready(function() {
+					$().UItoTop({ easingType: 'easeOutQuart'});
+					});
+				</script>
+			</div>
+		</div>
+		<!--Ending Footer-->
+	</body>
+</html>
