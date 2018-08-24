@@ -94,8 +94,8 @@
 			</div>
 		<!--End Jumbotron Info-->
 		<!--Success Stories Photo List-->
-		<div class="jumbotron">
-			<div class="container">
+		<div class="container">
+			<div class="story_box">
 				<div id="myCarousel4" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
@@ -124,6 +124,9 @@
 									governments have a lot of freedom in implementing programmes.
 								</p>
 							</div>
+							<br>
+							<a href="#" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a>
+							<a href="#" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-thumbs-down"></span> Dislike</a>
 						</div>
 						<div class="item">
 							<div class="col-sm-3">
@@ -151,6 +154,9 @@
 									governments have a lot of freedom in implementing programmes.
 								</p>
 							</div>
+							<br>
+							<a href="#" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a>
+							<a href="#" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-thumbs-down"></span> Dislike</a>
 						</div>
 						<div class="item">
 							<div class="col-sm-3">
@@ -178,12 +184,49 @@
 									governments have a lot of freedom in implementing programmes.
 								</p>
 							</div>
+							<br>
+							<a href="#" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a>
+							<a href="#" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-thumbs-down"></span> Dislike</a>		
 						</div>
 					</div>
+					<a href="#myCarousel4" data-slide="prev"><span class="glyphicon glyphicon-circle-arrow-left"></span></a>
+					<a href="#myCarousel4" data-slide="next"><span class="glyphicon glyphicon-circle-arrow-right"></span></a>
 				</div>
 			</div>
 		</div>
-	
+		<!--Start Best Story-->
+		<div class="container">
+			<h1 style="text-align:center;font-family:Century Gothic;">Best Story</h1>
+			<div class="best_story">
+				<div class="col-sm-3">
+					<div class="team">
+						<img src="img/team/img2.jpg" class="img-responsive" alt=""> 
+						<div class="team_box">               
+							<h3>Slightly Believable</h3>  
+							<p>Computer Scientist</p>        
+								<ul class="team-socials">
+									<li><a href="#"><span class="icon-social "><i class="fa fa-facebook"></i></span></a></li>
+									<li><a href="#"><span class="icon-social "><i class="fa fa-twitter"></i></span></a></li>
+									<li><a href="#"><span class="icon-social"><i class="fa fa-google-plus"></i></span></a></li>
+								</ul>     
+						</div>                             
+					</div>
+				</div>
+				<div class="story">
+					<p style="">	Hello!!! India is divided into 28 states and 7 so-called “Union Territories”. The states have their own elected governments
+									while the Union Territories are ruled directly by the Government of India, with the President of India appointing an
+									administrator for each Union Territory. As per the constitution of India, school education was originally a state
+									subject that is, the states had complete authority on deciding policies and implementing them. The role of the
+									Government of India was limited to coordination and deciding on the standards of higher education. This was
+									changed with a constitutional amendment in 1976 so that education now comes in the so-called concurrent list.
+									That is, school education policies and programmes are suggested at the national level by the GoI though the state
+									governments have a lot of freedom in implementing programmes.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!--End Best Story-->
+		
 		<!--Footer-->
 		<div class="footer1">
 			<div class="container">
@@ -192,28 +235,28 @@
 					<p style="color:#C3C0C0;">We have cover all career related problem and options in this website.</p>
 				</div>
 				<div class="col-lg-4 col-sm-6 footer1a">
-					<h3 style="color:white;">Navigation</h3>
 					<ul style="list-style:none;">
+						<h3 style="color:white;">Navigation</h3>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="gallery.html">Career Choices</a></li>
-						<li><a href="gallery.html">Entrepreneurship</a></li>
-						<li><a href="gallery.html">Success Stories</a></li>
-						<li><a href="gallery.html">Result & Counselling</a></li>
-						<li><a href="gallery.html">Motivation & Problems</a></li>
-						<li><a href="gallery.html">Colleges</a></li>
-						<li><a href="gallery.html">Jobs</a></li>
+						<li><a href="career_choices.html">Career Choices</a></li>
+						<li><a href="entrepreneurship.html">Entrepreneurship</a></li>
+						<li><a href="success_stories.html">Success Stories</a></li>
+						<li><a href="results.html">Result & Counselling</a></li>
+						<li><a href="motivation.html">Motivation & Problems</a></li>
+						<li><a href="colleges.html">Colleges</a></li>
+						<li><a href="jobs.html">Jobs</a></li>
 					</ul>
 				</div>
-				<div class="col-lg-4 col-sm-6" style="padding:20px;">
+				<div class="col-lg-4 col-sm-6" style="padding:10px;">
 					<ul style="list-style:none;">
 						<li><a href="services.html"><h4>Our Services</h4></a></li>
-						<li><a href="about_us.html"><h4>About Us</h4></a></li>
+						<li class="active"><a href="about_us.html"><h4>About Us</h4></a></li>
 						<li><a href="contact_us.html"><h4>Contact Us</h4></a></li>
+						<form><h3 style="color:white;">Newsletter</h3>
+							<input type="text" style="background:#3C444E; color:#fff; border:none;padding:5px;" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+							<input type="submit" value="   " class="tick">
+						</form>
 					</ul>
-					<form><h3 style="color:white;">Newsletter</h3>
-						<input type="text" style="background:#3C444E; color:#fff; border:none;" value=" Email" />
-						<input type="submit" value="   " class="tick">
-					</form>
 				</div>
 			</div>
 		</div>

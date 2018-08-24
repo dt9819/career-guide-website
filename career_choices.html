@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>	
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta charset="UTF-8">
+			<title>myCareer-Guide</title>
+			<link rel="icon" href="img/icons/icon.png">
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="./css/bootstrap.min.css">
+			<link rel="stylesheet" href="./css/ui.totop.css">
+			<link rel="stylesheet" href="./css/Home.css"/>
+			<!-- jQuery library -->
+			<script src="./js/jquery.min.js"></script>
+			<!-- Latest compiled JavaScript -->
+			<script src="./js/bootstrap.min.js"></script>
+			<script type="text/javascript">
+				/*2nd Image Slider will Not Slide before 3 minutes */
+				$(document).ready(function(){
+						$("#btnsearch").hover(function(){
+						$("#search1").animate({
+						width: '+=150px',
+						}).css("background", "#25292E");
+					});
+					$('#myCarousel2.slide').carousel({
+						interval: 200000,
+						pause: "hover"
+					}); 
+				});
+			</script>
+			<style type="text/css">
+				/*Icons are incapable to load from external css */
+				/*Search Icon*/
+				.search_submit{
+				background:url("img/icons/search.png");
+				border:none;
+				}
+				/*Email tick Icon*/
+				.tick{
+				height:25px;
+				border:1px solid;
+				background:url("img/icons/tick.png");
+				opacity:0.5;
+				}
+			</style>
+	</head>
+	<body>
+		<!--Logo & Heading-->
+		<div id="upper">
+			<img src="./img/icons/mcg.png" class="img-responsive" alt="myCareer-Guide" width="300" height="80" title="myCareer-Guide">
+		</div>
+		<!--end of logo & Heading-->	
+	
+		<!--Start Navbar -->
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> 
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li class="active"><a href="career_choices.html">Career Choices</a></li>
+						<li><a href="colleges.html">Colleges</a></li>
+						<li><a href="results.html">Results</a></li> 
+						<li><a href="jobs.html">Jobs</a></li> 
+						<li><a href="motivation.html">Motivation</a></li> 
+						<li><a href="entrepreneurship.html">Entrepreneurship</a></li> 
+						<li><a href="success_stories.html">Success Stories</a></li> 
+						<li><a href="about_us.html">About Us</a></li> 
+						<!--search bar-->		
+						<li>
+							<form id="myform">
+								<input type="search" class="search_input" placeholder="Search Here..." id="search1" value="" />
+								<input type="submit" class="search_submit" value="  " id="btnsearch"><span class=""></span></input>
+							</form>
+						</li> 
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--end of Navbar-->
+		
+
+		<!--Footer-->
+		<div class="footer1">
+			<div class="container">
+				<div class="col-lg-4 col-sm-6" >
+					<h1><a style="color:white; text-decoration:none;" href="index.html">myCareer-Guide</a></h1>
+					<p style="color:#C3C0C0;">We have cover all career related problem and options in this website.</p>
+				</div>
+				<div class="col-lg-4 col-sm-6 footer1a">
+					<ul style="list-style:none;">
+						<h3 style="color:white;">Navigation</h3>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="career_choices.html">Career Choices</a></li>
+						<li><a href="entrepreneurship.html">Entrepreneurship</a></li>
+						<li><a href="success_stories.html">Success Stories</a></li>
+						<li><a href="results.html">Result & Counselling</a></li>
+						<li><a href="motivation.html">Motivation & Problems</a></li>
+						<li><a href="colleges.html">Colleges</a></li>
+						<li><a href="jobs.html">Jobs</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-sm-6" style="padding:10px;">
+					<ul style="list-style:none;">
+						<li><a href="services.html"><h4>Our Services</h4></a></li>
+						<li class="active"><a href="about_us.html"><h4>About Us</h4></a></li>
+						<li><a href="contact_us.html"><h4>Contact Us</h4></a></li>
+						<form><h3 style="color:white;">Newsletter</h3>
+							<input type="text" style="background:#3C444E; color:#fff; border:none;padding:5px;" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+							<input type="submit" value="   " class="tick">
+						</form>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer2">
+			<div class="container">
+				<p style="color:#fff; text-align:center;"> © 2016 myCareer-Guide | All rights reserved </p>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+			
+				<!-- easing plugin ( optional ) -->
+				<!-- UItoTop plugin -->
+				<script src="./js/jquery.ui.totop.js" type="text/javascript"></script>
+				<!-- Starting the plugin -->
+				<script type="text/javascript">
+					$(document).ready(function() {
+					$().UItoTop({ easingType: 'easeOutQuart'});
+					});
+				</script>
+			</div>
+		</div>
+		<!--Ending Footer-->
+	</body>
+</html>

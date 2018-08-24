@@ -1,0 +1,242 @@
+body{
+	background-color:rgba(229, 226, 219, 0.43);
+}
+/*Image Sliders*/
+#myCarousel1>  .carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+width:100%;	 
+height:450px;
+}	
+
+#myCarousel2>.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+width:100%;
+height:450px;
+}
+
+/*--Footer--*/
+.footer1{background:#25292E; padding:20px;font-family:Century Gothic;}
+.footer2{background:#222; padding-top:20px; padding-bottom:30px; }
+.footer1a>ul>li>a{text-decoration:none; color:#C3C0C0;}
+.footer1a>ul>li>a:hover{color:#fff;}
+
+/*Subscription tick icon*/
+.tick{
+height:25px;
+border:1px solid;
+background:url("img/icons/tick.png");
+opacity:0.5;
+}
+
+.tick:hover{
+opacity:1;
+}
+/* Boxes*/
+.boxes{
+height:260px;
+}
+
+.boxes>.mybox{
+background:#fff;
+height:240px;
+font-family:Century Gothic;
+}
+
+.boxes>.mybox>h3{
+background:#2E2D2C;
+color:white;
+padding:3px 15px;
+}
+
+.mybox1>ul{
+padding-top:30px;
+}
+.mybox1>ul>li>a{
+color:#337AB7;
+
+text-decoration:none;
+font-size:20px;
+
+}
+.mybox1>ul>li>a:hover{
+color:#286090;
+
+}
+/*search Bar*/
+.search_input{
+background:#222222;
+width:0px;
+max-width:150px;
+padding-left:10px;
+color:#fff;
+margin-top:15px;
+border-radius:5px;
+border:none;}
+/*form on the slider */
+#form_on_imagesldr{
+height:300px;
+width:250px;
+position:relative;
+background: rgba(0, 0, 0, 0.30);
+float:right;
+}
+.banner-info a{
+	font-size:1em;
+	color:#fff;
+	margin-top:1em;
+	padding:0.5em 3em;
+	background:#B2BDD4;
+	display:inline-block;
+	border:2px solid #B8D29B;
+}
+.banner-info a:hover{
+	background:transparent;
+	border:2px solid #828E7E;
+}
+/*Contact Us*/
+.profile{
+	min-height:400px;
+}
+.address-more p{
+    color: #888;
+    font-size: 1.1em;
+	margin:20px;
+}
+p.your-para {
+  color: #9A9898;
+  margin: 0;
+  font-size: 13px;
+}
+/*Entrepreneurship*/
+.search_entre{
+	background:#222222;
+	padding:10px;
+	margin:10px;
+	color:#fff;
+	width:200px;
+	border-radius:5px;
+	border:none;
+}
+.banner-info1 {
+text-align: center;
+background: rgba(0, 0, 0, 0.47);
+padding: 3em 2em;
+margin-top: 0em;
+}
+.banner-info1 h2 {
+font-size: 2.3em;
+color: #fff;
+text-transform: uppercase;
+font-family: 'Exo2-Medium';
+}
+.caption{
+	font-family:Century Gothic;
+}
+.mask {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   background-color: rgba(0, 0, 0, 0.7);
+   -webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+}
+.boxes_entre:hover img {
+   -webkit-transform: scale(1.1,1.1);
+   -moz-transform: scale(1.1,1.1);
+   -o-transform: scale(1.1,1.1);
+   -ms-transform: scale(1.1,1.1);
+   transform: scale(1.1,1.1);
+}
+.boxes_entre:hover .mask {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+}
+/*Success Stories*/
+.story_box{
+	background-color:#E6E9EF;
+	padding:20px;
+	font-family:Century Gothic;
+	font-size:1.4em;
+	margin-bottom:30px;
+}
+.best_story{
+	margin-bottom:20px;
+	background-color:#E6E9EF;
+	padding:20px;
+	font-family:Century Gothic;
+	font-size:1.5em;
+}
+/*About Us*/
+.jumbotron{
+	font-family:Century Gothic;
+	text-align:center;
+}
+.block1{
+    margin:50px;
+	margin-left:10px;
+	margin-right:10px;
+	background-color:#E9EAEA;
+	padding:30px;
+	font-size: 1em;
+	font-family:Century Gothic;
+}
+.block2{
+    margin:50px;
+	margin-left:10px;
+	margin-right:10px;
+	padding:30px;
+	font-size: 1.2em;
+	background-color:#E9EAEA;
+	font-family:Century Gothic;
+}
+.block3{
+    margin:50px;
+	margin-left:10px;
+	margin-right:10px;
+	background-color:#E9EAEA;
+	padding:30px;
+	font-family:Century Gothic;
+}
+.block4{
+	margin-left:10px;
+	margin-right:10px;
+	font-family:Century Gothic;
+}
+.team{
+	text-align:center;
+	background:#E9EAEA;
+	margin-bottom:30px;
+}
+.team_box {
+    padding: 1em;
+}
+.team_box p{
+	font-size:1.1em;
+	color:#999;
+}
+.team-socials {
+    padding: 0;
+    margin: 1em 0 0 0;
+    list-style: none;
+}
+.team-socials li:first-child {
+    padding-left: 0;
+}
+.team-socials li {
+    display: inline;
+    padding: 0 9px;
+}
+.team-socials li a {
+    color: #656565;
+}
+.team-socials li a:hover {
+    color:#2f374c;
+}
+.team-socials li span {
+    font-size:18px;
+}
+/*Services*/
